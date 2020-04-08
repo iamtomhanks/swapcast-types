@@ -1,5 +1,5 @@
-import * as requests from './src/Requests';
+const requests = require('./src/Requests');
 
-export {
+module.exports = {
   requests,
 };
