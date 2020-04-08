@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d build",
+    "build": "rimraf ./build && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/iamtomhanks/swapcast-types#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "rimraf": "^3.0.2"
   }
 }

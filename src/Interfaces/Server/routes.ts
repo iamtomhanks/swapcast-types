@@ -1,6 +1,6 @@
 // Interfaces
-import { FormSubmitVals } from 'Interfaces/Form';
-import { ServerData } from 'Interfaces/Requests';
+import { FormSubmitVals } from '../Form';
+import { ServerData } from '../Requests';
 import { User } from './tables';
 
 export interface SignInParams extends FormSubmitVals {

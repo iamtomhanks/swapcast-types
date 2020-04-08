@@ -1,8 +1,22 @@
 // Interfaces
-import { RoomState } from 'Redux/Reducers/room';
-import { UserState } from 'Redux/Reducers/user';
-import { RequestsState } from 'Redux/Reducers/requests';
-import { ServerError } from 'Interfaces/Requests';
+import { Participant } from './Participant';
+import { User } from './Server/tables';
+import { RequestStatus, ServerError } from './Requests';
+
+/** Reducer States */
+export interface RoomState {
+  participants: Participant[];
+}
+export interface UserState {
+  user: User|null;
+}
+export interface RequestsState {
+  signIn: {
+    status: RequestStatus;
+    error: ServerError|null;
+  };
+}
+/** Reducer States */
 
 export interface Action {
   type: string;
