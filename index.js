@@ -1,4 +1,4 @@
-const requests = require('./src/Requests');
+const requests = require('./src/Interfaces/Requests');
 
 module.exports = {
   requests,
