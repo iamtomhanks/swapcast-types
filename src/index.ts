@@ -1,5 +1,13 @@
-import * as requests from './Interfaces/Requests';
+import {
+  AxiosResponse,
+  ServerError,
+  ServerData,
+  RequestStatus,
+} from './Interfaces/Requests';
 
 export {
-  requests,
+  AxiosResponse,
+  ServerError,
+  ServerData,
+  RequestStatus,
 };
