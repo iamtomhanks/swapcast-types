@@ -1,13 +1,9 @@
-import {
-  AxiosResponse,
-  ServerError,
-  ServerData,
-  RequestStatus,
-} from './Interfaces/Requests';
+import * as Requests from './Interfaces/Requests';
+import * as ServerRoutes from './Interfaces/Server/routes';
+import * as DBTables from './Interfaces/Server/tables';
 
 export {
-  AxiosResponse,
-  ServerError,
-  ServerData,
-  RequestStatus,
+  Requests,
+  ServerRoutes,
+  DBTables
 };

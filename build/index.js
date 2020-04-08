@@ -1,4 +1,8 @@
 "use strict";
 exports.__esModule = true;
-var Requests_1 = require("./Interfaces/Requests");
-exports.RequestStatus = Requests_1.RequestStatus;
+var Requests = require("./Interfaces/Requests");
+exports.Requests = Requests;
+var ServerRoutes = require("./Interfaces/Server/routes");
+exports.ServerRoutes = ServerRoutes;
+var DBTables = require("./Interfaces/Server/tables");
+exports.DBTables = DBTables;
