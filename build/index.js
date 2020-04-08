@@ -1,6 +1,6 @@
 'use strict';
 
-var _Requests = require('./src/Interfaces/Requests');
+var _Requests = require('./Interfaces/Requests');
 
 var requests = _interopRequireWildcard(_Requests);
 

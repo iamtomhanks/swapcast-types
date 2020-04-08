@@ -1,4 +1,4 @@
-import * as requests from './src/Interfaces/Requests';
+import * as requests from './Interfaces/Requests';
 
 module.exports = {
   requests,
