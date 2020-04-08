@@ -1,4 +1,4 @@
-import { requests } from './Interfaces/Requests';
+import * as requests from './Interfaces/Requests';
 
 export {
   requests,
